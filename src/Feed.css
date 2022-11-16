@@ -1,0 +1,12 @@
+.feed{
+    flex: 0.8;
+    background-color: #2b3a60;
+    padding-left: 24px; 
+}
+
+.feed__videos{
+    padding-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+

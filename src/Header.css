@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #27355C;
+    color: #E3E4EB;
+    padding: .5%;
+    padding-bottom: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo{
+    height: 50px;
+    object-fit: contain;
+    margin-left: 8px;
+}
+
+.profile{
+    height: 40px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.header__input{
+    border: 1px solid #e3e4ebc7;
+    border-radius: 50px;
+}
+
+.header__input > input{
+    flex: 1;
+    background-color: #3F5288;
+    border: none;
+    height: 16px;
+    margin-right: 5%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    caret-color: #E3E4EB;
+    padding: 10px;
+}
+
+.header__input > input::placeholder{
+   color: #e3e4eb90; 
+   margin-left: 8px;
+}
+
+.search{
+    margin-right: 10px;
+}
+
+
